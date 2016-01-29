@@ -1,0 +1,24 @@
+repo: ""
+canvasCourse: ""
+canvasAssignment: ""
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - ""
+    search:
+      - ""
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - []
+    search:
+      - ""
