@@ -20,5 +20,11 @@ css:
     bestPractices: true
     has:
       - []
+    has_not:
+      - []
     search:
       - ""
+
+screenshots:
+  - path: "index.html"
+    sizes: [320, 400, 650, 980, 1400]
