@@ -38,3 +38,13 @@ Visually match the images in the “screenshots” folder and create the interac
 ## Hand in
 
 Drop this folder into your Markbot application. Make sure to fix all the errors. And submit to Canvas using Markbot.
+
+---
+---
+
+## Optional challenges
+
+*These challenges are here if you’d like to try a little more work—they are for extra experience and learning. They are completely optional and not graded. Show them to me if you’d like—I’d love to see them.*
+
+1. Another thing that’s slightly more difficult.
+2. And yet another thing.
