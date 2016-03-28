@@ -1,7 +1,7 @@
 # Markbot template
 
 - Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, images**
+- Deliverables: **1 HTML file, 1 CSS file, 1 JS file, images**
 
 ---
 
@@ -12,6 +12,7 @@
 - And details
 - About the project
 - Text can be found inside the `content.txt` file.
+- **DO NOT change the HTML file.**
 - *Run it through Markbot and make sure it passes all the checks.*
 
 ---
@@ -23,6 +24,8 @@
 - *Colours:* `#fff`, `#000`, `#333`, `#666`, `#ccc`, `#f33`, `#933`
 - *Button padding:* `0.4em 0.75em 0.3em`
 - *Expected class names:* `.btn`, `.btn-small`, `.btn-big`, `.btn-subtle`, `.btn-ghost`, `.btn-warning`
+- *Standard media query widths:* `25em`, `38em`, `60em`, `90em`
+- *Standard text sizes & line heights:* `100%/1.3`, `110%/1.4`, `120%/1.5`, `130%/1.5`
 
 ---
 

@@ -1,21 +1,26 @@
-repo: ""
-canvasCourse: ""
-canvasAssignment: ""
+repo: ''
+canvasCourse: ''
+canvasAssignment: ''
 
 naming: true
 commits: 2
+liveWebsite: true
 
 html:
-  - path: "index.html"
+  - path: 'index.html'
     valid: true
     bestPractices: true
     has:
-      - ""
+      - ''
+    has_not:
+      - ''
     search:
-      - ""
+      - ''
+    search_not:
+      - ''
 
 css:
-  - path: "css/main.css"
+  - path: 'css/main.css'
     valid: true
     bestPractices: true
     has:
@@ -23,8 +28,24 @@ css:
     has_not:
       - []
     search:
-      - ""
+      - ''
+    search_not:
+      - ''
+
+js:
+  - path: 'css/main.css'
+    valid: true
+    bestPractices: true
+    search:
+      - ''
+    search_not:
+      - ''
 
 screenshots:
-  - path: "index.html"
-    sizes: [320, 400, 650, 980, 1400]
+  - path: 'index.html'
+    sizes: [320, 400, 608, 980, 1440]
+
+functionality:
+  - path: 'index.html'
+    tests:
+      - |
