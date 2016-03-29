@@ -33,7 +33,7 @@ css:
       - ''
 
 js:
-  - path: 'css/main.css'
+  - path: 'js/main.js'
     valid: true
     bestPractices: true
     search:
