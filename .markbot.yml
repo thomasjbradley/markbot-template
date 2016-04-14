@@ -3,13 +3,18 @@ canvasCourse: ''
 canvasAssignment: ''
 
 naming: true
-commits: 2
 liveWebsite: true
+
+git:
+  numCommits: 2
+  allCommitted: true
+  allSynced: true
 
 html:
   - path: 'index.html'
     valid: true
     bestPractices: true
+    outline: true
     has:
       - ''
     has_not:
@@ -47,5 +52,6 @@ screenshots:
 
 functionality:
   - path: 'index.html'
+    noErrors: true
     tests:
       - |
