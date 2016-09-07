@@ -1,6 +1,5 @@
 repo: ''
 canvasCourse: ''
-canvasAssignment: ''
 
 naming: true
 liveWebsite: true
@@ -48,10 +47,16 @@ js:
 
 screenshots:
   - path: 'index.html'
-    sizes: [320, 400, 608, 980, 1440]
+    sizes: [320, 400, 608, 960, 1440]
 
 functionality:
   - path: 'index.html'
-    noErrors: true
     tests:
       - |
+        let link = $('a');
+        let oldBg = css(link).backgroundColor;
+
+        hover('a', function () {
+          if (css(link).backgroundColor == oldBg) fail('The background colour of the link doesn’t change when hovered')
+          pass();
+        });
