@@ -39,9 +39,26 @@ Visually match the images in the “screenshots” folder and create the interac
 
 ---
 
+## Marking rubric
+
+Below is the rubric of expectations for this project. **You will be assigned a letter grade based on your standing within the rubric.**
+
+| | 0 points | 1 points | 2 points | 3 points |
+| --- | --- | --- | --- | --- |
+| **** |  |  |  |  |
+
+---
+
 ## Hand in
 
 Drop this folder into your Markbot application. Make sure to fix all the errors. And submit to Canvas using Markbot.
+
+1. Upload the assignment to GitHub and make sure it works
+2. Submit the GitHub URL to Canvas
+
+```
+https://username.github.io/portfolio/
+```
 
 ---
 
