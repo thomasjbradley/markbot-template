@@ -15,13 +15,15 @@ html:
     valid: true
     bestPractices: true
     outline: true
+    performance: true
     has:
+      - ['link[href*="Merriweather"]', 'The Google Font, `Merriweather` (regular, italic & bold) is missing']
       - ''
-    has_not:
+    hasNot:
       - ''
     search:
       - ''
-    search_not:
+    searchNot:
       - ''
 
 css:
@@ -40,7 +42,7 @@ css:
       - ['@60em', 'html', 'font-size', '120%']
       - ['@60em', 'html', 'line-height', '1.5']
       - ['@90em', 'html', 'font-size', '130%']
-    has_not:
+    hasNot:
       - []
     search:
       - '@-moz-viewport'
@@ -48,7 +50,7 @@ css:
       - '@-o-viewport'
       - '@-webkit-viewport'
       - '@viewport'
-    search_not:
+    searchNot:
       - ['@media.+\(.*max-width', 'Media queries with `max-width` should not be used — use `min-width` instead']
       - ['@media.+\(.*px', 'Pixel units should not be used in media queries — use `em` instead']
       - ['font-size\s*:\s*.+px', 'Pixel units should not be used for `font-size` — use `rem` instead']
@@ -59,7 +61,7 @@ js:
     bestPractices: true
     search:
       - ''
-    search_not:
+    searchNot:
       - ''
 
 screenshots:
@@ -70,10 +72,10 @@ functionality:
   - path: 'index.html'
     tests:
       - |
-        let link = $('a');
+        let link = $('nav a');
         let oldBg = css(link).backgroundColor;
 
-        hover('a', function () {
-          if (css(link).backgroundColor == oldBg) fail('The background colour of the link doesn’t change when hovered')
+        hover('nav a', function () {
+          if (css(link).backgroundColor == oldBg) fail('The background colour of the navigation links don’t change when hovered')
           pass();
         });
