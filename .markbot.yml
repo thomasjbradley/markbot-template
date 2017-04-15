@@ -31,12 +31,13 @@ css:
     valid: true
     bestPractices: true
     has:
-      - ['html', 'box-sizing', 'border-box']
+      - ['html', 'box-sizing', 'border-box', 'The `border-box` layout model is needed for this assignment—use the `borderbox` snippet']
       - ['html', 'text-size-adjust', '100%']
       - ['html', '-moz-text-size-adjust', '100%']
       - ['html', '-ms-text-size-adjust', '100%']
       - ['html', '-webkit-text-size-adjust', '100%']
-      - ['*', 'box-sizing', 'inherit']
+      - ['*', 'box-sizing', 'inherit', 'The `border-box` layout model is needed for this assignment—use the `borderbox` snippet']
+      - ['@25em']
       - ['@38em', 'html', 'font-size', '110%']
       - ['@38em', 'html', 'line-height', '1.4']
       - ['@60em', 'html', 'font-size', '120%']
