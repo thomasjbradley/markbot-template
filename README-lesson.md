@@ -1,4 +1,4 @@
-# Fork lesson starter
+# TITLE lesson starter
 
 **Quick project summary shown here.**
 
@@ -8,7 +8,7 @@
 
 This is the starter code for a step-by-step lesson. Each step is described in detail here:
 
-### [**Follow the Fork lesson starter step-by-step lesson ➔**](https://learn-the-web.algonquindesign.ca/courses/web-dev-1/fork-lesson-starter/)
+### [**Follow the TITLE step-by-step lesson ➔**](https://learn-the-web.algonquindesign.ca/courses/web-dev-1/REPO/)
 
 ---
 
