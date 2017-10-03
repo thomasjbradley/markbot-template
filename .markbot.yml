@@ -68,6 +68,6 @@ functionality:
         let oldBg = css(link).backgroundColor;
 
         hover('nav a', function () {
-          if (css(link).backgroundColor == oldBg) return fail('The background colour of the navigation links don’t change when hovered')
+          if (css(link).backgroundColor == oldBg) return fail('The background colour of the navigation links don’t change when hovered');
           pass();
         });
