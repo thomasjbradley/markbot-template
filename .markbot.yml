@@ -10,7 +10,7 @@ inherit:
 html:
   - path: 'index.html'
     has:
-      - ['link[href*="Merriweather"]', 'The Google Font, `Merriweather` (regular, italic & bold) is missing']
+      - ['link[href*="Merriweather"]', 'The Google Font, `Merriweather` (regular, italic & bold), is missing']
       - ''
     hasNot:
       - ''
@@ -67,7 +67,7 @@ functionality:
         let link = $('nav a');
         let oldBg = css(link).backgroundColor;
 
-        hover('nav a', function () {
+        hover(link, function () {
           if (css(link).backgroundColor == oldBg) return fail('The background colour of the navigation links don’t change when hovered');
           pass();
         });
