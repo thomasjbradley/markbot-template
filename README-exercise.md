@@ -54,7 +54,7 @@ Below is the rubric of expectations for this project. **You will be assigned a l
 
 ## Hand in
 
-Drop this folder into your Markbot application. Make sure to fix all the errors. And submit to Canvas using Markbot.
+Drop this folder into your Markbot application. Make sure to fix all the errors. And submit for grades using Markbot.
 
 1. Upload the assignment to GitHub and make sure it works
 2. Submit the GitHub URL to Canvas

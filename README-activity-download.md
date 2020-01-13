@@ -1,5 +1,5 @@
-# All ’bout them semantics
+# TITLE
 
-A quick review exercise for HTML semantics before starting the term.
+**Quick project summary shown here.**
 
-### [☛ See the complete details here.](http://learn-the-web.algonquindesign.ca/courses/web-dev-3/all-bout-them-semantics/)
+### [☛ See the complete details here.](http://learn-the-web.algonquindesign.ca/courses/web-dev-1/TITLE/)
